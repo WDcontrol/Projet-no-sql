@@ -1,5 +1,5 @@
 // DB.js
 
 module.exports = {
-    DB: 'mongodb://localhost:27017/mevnexample'
+    DB: 'mongodb://hello:darling1@ds261138.mlab.com:61138/nosql'
 }

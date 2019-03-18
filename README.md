@@ -9,16 +9,16 @@ MongoDB : https://www.mongodb.com/download-center/community
 sudo service mongod start
 ```
 
-```
-npm install
-```
+
 
 ### Compiles and hot-reloads for development // on Projet NoSQL/mevn.normalized/mevnexample 
 ```
+npm install
 npm run serve
 ```
 ### Launch the API server // on Projet NoSQL/mevn.normalized/api 
 ```
+nmp install
 nodemon server
 ```
 

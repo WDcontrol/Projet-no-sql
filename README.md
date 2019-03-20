@@ -38,6 +38,11 @@ npm run test
 ## Lints and fixes files
 ```
 npm run lint
+
+# EDIT 
+
+1- There's a bug creating post without user
+2- It looks like external database (ex:MLab) don't use the same structure, will be fixed soon.
 ```
 <!-- 
 ### Customize configuration

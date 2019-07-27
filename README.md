@@ -1,5 +1,10 @@
 # mevnexample
 
+[FR] : Projet NoSQL utilisant les technologies MongoDB, Express.js, Vue.js et Node.js : "MEVN"
+
+Projet ticketing avec la caractéristique suivante : Les utilisateurs gagnent des points en fonctions du nombre de tickets qu'ils ont effectués. 
+Leur salaire grandit en fonction de leur nombre de points (donc de leur nombre de tickets validés).
+
 ## Project setup
 
 Default : Database is hosted on mlab, you can modify the connection in the file /api/DB.js

@@ -3,6 +3,7 @@
 ## Project setup
 
 MongoDB : https://www.mongodb.com/download-center/community
+Install MSI package
 
 ### Start MongoDB 
 ```
@@ -19,27 +20,27 @@ mongo
 
 On windows :
 
-- Create a directory named data on your root hard drive, and another named db in data :
+# Create a directory named data on your root hard drive, and another named db in data :
 example : C:\data\db
-- Open a cmd prompt in your mongodb bin directory (where mongod.exe is, path look like  'C:\Program Files\MongoDB\Server\4.0\bin") 
-- enter thoses commands :
-mongo.exe --dbpath C:\data\db
+# Open a cmd prompt in your mongodb bin directory (where mongod.exe is, path look like  'C:\Program Files\MongoDB\Server\4.0\bin") 
+# enter thoses commands :
+mongod.exe --dbpath C:\data\db
 
-- Open another cmd prompt and go to your mongodb bin directory : "C:\Program Files\MongoDB\Server\4.0\bin"
-run :
-```
+# Open another cmd prompt and go to your mongodb bin directory : "C:\Program Files\MongoDB\Server\4.0\bin"
+#run :
 mongo.exe
-```
-It should open mongo terminal, run thoses commands : 
+# It should open mongo terminal, run thoses commands : 
 
-> use mevnexample
-> db.users.insert({"name":"Bastien","email":"bastien@project.com","password":"bastien123","score":1000.0,"net_salary":1150.0})
-> db.users.insert({"name":"Sean","email":"sean@project.com","password":"sean123","score":100.0,"net_salary":5000.0})
-> db.users.insert({"name":"Jérôme Celebi","email":"jerome.celebi@ynov.com","password":"1234","score":10.0,"net_salary":100000.0})
+use mevnexample
+db.users.insert({"name":"Bastien","email":"bastien@project.com","password":"bastien123","score":1000.0,"net_salary":1150.0})
+db.users.insert({"name":"Sean","email":"sean@project.com","password":"sean123","score":100.0,"net_salary":5000.0})
+db.users.insert({"name":"Jérôme Celebi","email":"jerome.celebi@ynov.com","password":"1234","score":10.0,"net_salary":100000.0})
+exit
 ```
 
 
 ## Download the folder : 
+Go to the path you want to download the project and run : 
 ```
 git clone https://github.com/WDcontrol/Projet-no-sql.git
 cd  Projet-no-sql

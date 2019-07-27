@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 
 app.use('/posts', route.postRoute);
 app.use('/users', route.userRoute);
-
+require('./seed');
 app.listen(PORT, function(){
   console.log('Server is running on Port:',PORT);
 });

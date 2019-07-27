@@ -1,0 +1,5 @@
+[
+    {"name":"Bastien","email":"bastien@project.com","password":"bastien123","score":1000.0,"net_salary":1150.0},
+    {"name":"Sean","email":"sean@project.com","password":"sean123","score":100.0,"net_salary":5000.0},
+    {"name":"Jérôme Celebi","email":"jerome.celebi@ynov.com","password":"1234","score":10.0,"net_salary":100000.0}
+]

@@ -7,6 +7,9 @@ MongoDB : https://www.mongodb.com/download-center/community
 ### Start MongoDB 
 ```
 sudo service mongod start
+
+# On Windows : Check if the mongodb is already running : 
+sc query mongodb
 ```
 ### Add users to MongoDB
 ```
